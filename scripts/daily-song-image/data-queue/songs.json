@@ -1,0 +1,371 @@
+{
+  "_comment": "하루 한 곡씩 그림을 만들 곡 목록. scene/sceneKo 는 우리가 직접 쓴 분위기 설명이며 가사·제목·가수·앨범 표지를 쓰지 않아요. 연도·제목·가수는 추가 전에 사람이 확인해 주세요.",
+  "songs": [
+    {
+      "id": "bomnal",
+      "title": "봄날",
+      "artist": "방탄소년단",
+      "year": 2017,
+      "aliases": [
+        "Spring Day"
+      ],
+      "genre": "팝·발라드",
+      "scene": "A snowy winter field at dusk where one lone tree is just beginning to bloom with a few pale pink blossoms, a long empty path leading toward a distant warm light.",
+      "sceneKo": "눈 쌓인 저녁 들판, 외딴 나무 한 그루에 연분홍 꽃이 막 피기 시작해요.",
+      "status": "pending"
+    },
+    {
+      "id": "bamphyeonji",
+      "title": "밤편지",
+      "artist": "아이유",
+      "year": 2017,
+      "aliases": [
+        "Through the Night"
+      ],
+      "genre": "발라드",
+      "scene": "A calm dark-blue night sky full of soft stars above a small sleeping town, one warm yellow window glowing, a crescent moon reflected on a still lake.",
+      "sceneKo": "별이 가득한 고요한 밤하늘 아래 작은 마을, 창문 하나만 따뜻하게 켜져 있어요.",
+      "status": "pending"
+    },
+    {
+      "id": "joeun-nal",
+      "title": "좋은 날",
+      "artist": "아이유",
+      "year": 2010,
+      "aliases": [
+        "Good Day"
+      ],
+      "genre": "팝·댄스",
+      "scene": "A bright cloudless day on a grassy hilltop with a picnic blanket and basket, colorful balloons floating up into a clear blue sky, spring flowers everywhere.",
+      "sceneKo": "구름 한 점 없는 맑은 날, 언덕 위 소풍 자리에서 풍선이 하늘로 떠올라요.",
+      "status": "pending"
+    },
+    {
+      "id": "dynamite",
+      "title": "Dynamite",
+      "artist": "방탄소년단",
+      "year": 2020,
+      "aliases": [],
+      "genre": "디스코 팝",
+      "scene": "A retro neon-lit roller rink with a sparkling disco ball, warm pink and yellow lights, confetti hanging in the air, empty and joyful.",
+      "sceneKo": "반짝이는 조명 공이 돌아가는 복고풍 롤러장, 분홍·노랑 불빛과 색종이가 가득해요.",
+      "status": "pending"
+    },
+    {
+      "id": "lilac",
+      "title": "라일락",
+      "artist": "아이유",
+      "year": 2021,
+      "aliases": [
+        "Lilac"
+      ],
+      "genre": "팝",
+      "scene": "A quiet street at the end of spring where purple flowering bushes line the path, petals drifting in warm afternoon wind, a bicycle leaning on a fence.",
+      "sceneKo": "봄이 끝나 가는 조용한 골목, 보랏빛 꽃나무 사이로 꽃잎이 날리고 자전거가 기대어 있어요.",
+      "status": "pending"
+    },
+    {
+      "id": "hype-boy",
+      "title": "Hype Boy",
+      "artist": "뉴진스",
+      "year": 2022,
+      "aliases": [],
+      "genre": "팝·R&B",
+      "scene": "A sunny schoolyard after class, a basketball court with pastel painted lines, a lone backpack on the ground, fresh breezy blue and white palette.",
+      "sceneKo": "방과 후 햇살 가득한 운동장, 파스텔 선이 그려진 농구 코트에 가방 하나가 놓여 있어요.",
+      "status": "pending"
+    },
+    {
+      "id": "ditto",
+      "title": "Ditto",
+      "artist": "뉴진스",
+      "year": 2022,
+      "aliases": [],
+      "genre": "팝",
+      "scene": "A winter afternoon in an empty snowy park, two sets of footprints in the snow walking side by side, soft hazy film-like light and faint grain.",
+      "sceneKo": "텅 빈 눈 덮인 공원, 눈 위에 나란히 걸어간 발자국 두 줄이 이어져요.",
+      "status": "pending"
+    },
+    {
+      "id": "sageonui-jipyeongseon",
+      "title": "사건의 지평선",
+      "artist": "윤하",
+      "year": 2021,
+      "aliases": [
+        "Event Horizon"
+      ],
+      "genre": "팝 록",
+      "scene": "A vast dark cosmos with a glowing ring of orange light around a black void, tiny planets and a small spaceship drifting far away, deep blue and amber palette.",
+      "sceneKo": "어두운 우주, 검은 구멍 둘레로 주황빛 고리가 빛나고 작은 우주선이 멀리 떠가요.",
+      "status": "pending"
+    },
+    {
+      "id": "yeosu-bambada",
+      "title": "여수 밤바다",
+      "artist": "버스커 버스커",
+      "year": 2012,
+      "aliases": [
+        "Yeosu Night Sea"
+      ],
+      "genre": "포크·인디",
+      "scene": "A calm harbor town at night, small boats resting on dark water, string lights of a seaside promenade reflecting on gentle waves.",
+      "sceneKo": "잔잔한 항구 도시의 밤, 작은 배들과 물결에 일렁이는 불빛이 보여요.",
+      "status": "pending"
+    },
+    {
+      "id": "gaeul-achim",
+      "title": "가을 아침",
+      "artist": "아이유",
+      "year": 2010,
+      "aliases": [
+        "Autumn Morning"
+      ],
+      "genre": "포크 팝",
+      "scene": "Early fall dawn with golden ginkgo and maple leaves scattered on a quiet road, soft mist and low sun, a steaming mug on a wooden bench.",
+      "sceneKo": "안개 낀 이른 시간, 노란 은행잎이 깔린 조용한 길과 김이 오르는 컵 하나가 있어요.",
+      "status": "pending"
+    },
+    {
+      "id": "gee",
+      "title": "Gee",
+      "artist": "소녀시대",
+      "year": 2009,
+      "aliases": [],
+      "genre": "댄스 팝",
+      "scene": "Giant glossy pastel stars floating over a bubblegum-pink and sky-blue backdrop, sparkles and ribbons everywhere, playful and cheerful candy colors.",
+      "sceneKo": "분홍·하늘색 배경에 커다란 파스텔 별들과 리본이 반짝이며 떠 있어요.",
+      "status": "pending"
+    },
+    {
+      "id": "geojinmal",
+      "title": "거짓말",
+      "artist": "빅뱅",
+      "year": 2007,
+      "aliases": [
+        "Lies"
+      ],
+      "genre": "일렉트로닉 힙합",
+      "scene": "A rain-soaked city street at night, neon reflections on wet pavement, an abandoned umbrella, melancholy purple and blue tones.",
+      "sceneKo": "비에 젖은 밤거리, 젖은 바닥에 비치는 네온 불빛과 버려진 우산이 쓸쓸해요.",
+      "status": "pending"
+    },
+    {
+      "id": "haruharu",
+      "title": "하루하루",
+      "artist": "빅뱅",
+      "year": 2008,
+      "aliases": [
+        "Day by Day"
+      ],
+      "genre": "팝 발라드",
+      "scene": "An empty city rooftop at dusk with long shadows, a paper plane drifting off the edge toward the skyline, bittersweet orange sky.",
+      "sceneKo": "해 질 녘 텅 빈 옥상, 종이비행기 하나가 도시 쪽으로 날아가요.",
+      "status": "pending"
+    },
+    {
+      "id": "love-dive",
+      "title": "Love Dive",
+      "artist": "아이브",
+      "year": 2022,
+      "aliases": [],
+      "genre": "댄스 팝",
+      "scene": "A moonlit swimming pool at night, ripples spreading from one fallen red rose petal on glittering black water, elegant and mysterious.",
+      "sceneKo": "달빛 아래 밤 수영장, 반짝이는 검은 물 위로 붉은 장미 꽃잎 하나가 파문을 만들어요.",
+      "status": "pending"
+    },
+    {
+      "id": "next-level",
+      "title": "Next Level",
+      "artist": "에스파",
+      "year": 2021,
+      "aliases": [],
+      "genre": "일렉트로닉 팝",
+      "scene": "A futuristic digital landscape with glowing neon grid mountains, a bright portal in the sky and floating geometric crystals, cyber purple and cyan.",
+      "sceneKo": "빛나는 격자 산과 하늘의 둥근 문, 떠다니는 수정이 있는 미래 세계예요.",
+      "status": "pending"
+    },
+    {
+      "id": "eight",
+      "title": "에잇",
+      "artist": "아이유",
+      "year": 2020,
+      "aliases": [
+        "Eight"
+      ],
+      "genre": "신스팝",
+      "scene": "A dreamy sunset above a sea of clouds, pastel pink and orange sky, a lone paper kite drifting in the warm light.",
+      "sceneKo": "구름 바다 위로 지는 노을, 분홍·주황 하늘에 종이연 하나가 떠다녀요.",
+      "status": "pending"
+    },
+    {
+      "id": "yeppeosseo",
+      "title": "예뻤어",
+      "artist": "데이식스",
+      "year": 2015,
+      "aliases": [
+        "You Were Beautiful"
+      ],
+      "genre": "밴드 팝 록",
+      "scene": "A sunlit empty cafe table with two coffee cups, one untouched, golden dusty light through the window, nostalgic mood.",
+      "sceneKo": "햇살 드는 빈 카페 테이블, 커피잔 두 개 중 하나는 손대지 않은 채 놓여 있어요.",
+      "status": "pending"
+    },
+    {
+      "id": "joni",
+      "title": "좋니",
+      "artist": "윤종신",
+      "year": 2017,
+      "aliases": [
+        "Like It"
+      ],
+      "genre": "발라드",
+      "scene": "A dim window at night with city lights blurred by rain, a single glass on a table, lonely blue tones.",
+      "sceneKo": "비 내리는 밤 창가, 번진 도시 불빛과 탁자 위 잔 하나가 외로워 보여요.",
+      "status": "pending"
+    },
+    {
+      "id": "yeohaeng",
+      "title": "여행",
+      "artist": "볼빨간사춘기",
+      "year": 2016,
+      "aliases": [
+        "Travel"
+      ],
+      "genre": "인디 팝",
+      "scene": "A small yellow car parked on a seaside road with a suitcase strapped on the roof, sparkling blue sea beyond, bright summer breeze.",
+      "sceneKo": "푸른 바다가 보이는 길가에 짐을 얹은 노란 자동차가 서 있어요.",
+      "status": "pending"
+    },
+    {
+      "id": "ujureul-julge",
+      "title": "우주를 줄게",
+      "artist": "볼빨간사춘기",
+      "year": 2016,
+      "aliases": [
+        "I'll Give You the Universe"
+      ],
+      "genre": "인디 팝",
+      "scene": "A cozy pastel night where a crescent moon and gentle planets float like candy, a small box with stars spilling out of it, deep purple sky.",
+      "sceneKo": "별과 달이 사탕처럼 떠 있는 포근한 보랏빛 밤하늘이에요.",
+      "status": "pending"
+    },
+    {
+      "id": "aroha",
+      "title": "아로하",
+      "artist": "조정석",
+      "year": 2020,
+      "aliases": [
+        "Aloha"
+      ],
+      "genre": "어쿠스틱 팝",
+      "scene": "A warm tropical beach at golden hour, a hammock between two palm trees, a ukulele leaning on a driftwood log, gentle waves.",
+      "sceneKo": "해 질 녘 따뜻한 열대 해변, 야자나무 사이 그물침대와 작은 기타가 놓여 있어요.",
+      "status": "pending"
+    },
+    {
+      "id": "seoreun-jeumene",
+      "title": "서른 즈음에",
+      "artist": "김광석",
+      "year": 1994,
+      "aliases": [
+        "Around Thirty"
+      ],
+      "genre": "포크",
+      "scene": "Late autumn dusk in a quiet neighborhood, one bench under a nearly bare tree, windows lighting up one by one, nostalgic grain.",
+      "sceneKo": "늦가을 해 질 녘 조용한 동네, 앙상한 나무 아래 벤치와 하나둘 켜지는 창문이 보여요.",
+      "status": "pending"
+    },
+    {
+      "id": "eunggeupsil",
+      "title": "응급실",
+      "artist": "izi",
+      "year": 2008,
+      "aliases": [
+        "Emergency Room"
+      ],
+      "genre": "R&B 발라드",
+      "scene": "A long empty pale-green corridor lit by cold fluorescent light, a single red glow at the far end, lonely and tense atmosphere.",
+      "sceneKo": "차가운 불빛이 비추는 길고 텅 빈 복도, 끝에서 붉은 불빛 하나가 깜박여요.",
+      "status": "pending"
+    },
+    {
+      "id": "butter",
+      "title": "Butter",
+      "artist": "방탄소년단",
+      "year": 2021,
+      "aliases": [],
+      "genre": "댄스 팝",
+      "scene": "Smooth glossy golden-yellow ribbons melting over a sunny pale background, sweet summery pop mood, warm and silky textures.",
+      "sceneKo": "햇살 같은 노란 리본이 부드럽게 녹아 흐르는 달콤한 여름 분위기예요.",
+      "status": "pending"
+    },
+    {
+      "id": "apateu",
+      "title": "아파트",
+      "artist": "로제",
+      "year": 2024,
+      "aliases": [
+        "APT."
+      ],
+      "genre": "팝 록",
+      "scene": "A neon-lit city block at night with rows of lit windows forming a glowing grid, a rooftop party with string lights and confetti, vibrant red and pink.",
+      "sceneKo": "밤 도시의 격자 모양 불빛 창문들, 옥상에 달린 전구와 색종이가 빨갛고 분홍빛이에요.",
+      "status": "pending"
+    },
+    {
+      "id": "supernova",
+      "title": "Supernova",
+      "artist": "에스파",
+      "year": 2024,
+      "aliases": [],
+      "genre": "일렉트로닉 팝",
+      "scene": "A bright explosion of stardust and sparks in a deep dark cosmos, a luminous orb at the center, silver and electric blue.",
+      "sceneKo": "깊고 어두운 우주에서 별가루가 터지듯 번지고 가운데 둥근 빛이 번쩍여요.",
+      "status": "pending"
+    },
+    {
+      "id": "magnetic",
+      "title": "Magnetic",
+      "artist": "아일릿",
+      "year": 2024,
+      "aliases": [],
+      "genre": "댄스 팝",
+      "scene": "Pastel pink and white scene of tiny sparkling particles all drifting toward one glowing heart-shaped light, soft dreamy bokeh.",
+      "sceneKo": "반짝이는 작은 알갱이들이 하나의 하트 모양 빛으로 모여드는 파스텔 풍경이에요.",
+      "status": "pending"
+    },
+    {
+      "id": "seven",
+      "title": "Seven",
+      "artist": "정국",
+      "year": 2023,
+      "aliases": [],
+      "genre": "팝",
+      "scene": "A late-night corner shop glowing softly on an empty summer street, fireflies in the dark, calm teal and orange tones.",
+      "sceneKo": "여름밤 텅 빈 거리, 불 켜진 작은 가게와 반딧불이 고요해요.",
+      "status": "pending"
+    },
+    {
+      "id": "cupid",
+      "title": "Cupid",
+      "artist": "피프티 피프티",
+      "year": 2023,
+      "aliases": [],
+      "genre": "팝",
+      "scene": "A pastel pink sky with fluffy clouds, tiny floating feathers and one small golden arrow streaking across with sparkles.",
+      "sceneKo": "분홍 하늘에 솜구름과 깃털, 반짝이는 작은 황금 화살이 날아가요.",
+      "status": "pending"
+    },
+    {
+      "id": "super-shy",
+      "title": "Super Shy",
+      "artist": "뉴진스",
+      "year": 2023,
+      "aliases": [],
+      "genre": "팝",
+      "scene": "A breezy blue-sky afternoon with pale clouds, a lone potted flower trembling in the wind on a window ledge, gentle pastel mood.",
+      "sceneKo": "바람 부는 푸른 오후, 창턱의 화분 꽃 한 송이가 살랑이는 파스텔 분위기예요.",
+      "status": "pending"
+    }
+  ]
+}

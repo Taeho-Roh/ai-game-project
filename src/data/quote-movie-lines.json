@@ -2,7 +2,7 @@
   "id": "movie-lines",
   "gameType": "quote_tts",
   "title": "한국 영화 명대사",
-  "description": "한 번쯤 따라 해 본 그 대사, 어느 영화였을까요? 2001~2019년 한국 영화 15편.",
+  "description": "한 번쯤 따라 해 본 그 대사, 어느 영화였을까요? 1999~2019년 한국 영화 21편.",
   "createdAt": "2026-11-11",
   "editorRank": 1,
   "tags": ["영화", "명대사"],
@@ -153,14 +153,14 @@
       "needsReview": true
     },
     {
-      "id": "mq-man-from-nowhere",
+      "id": "mq-new-world",
       "medium": "movie",
-      "line": "내일만 사는 놈은 오늘만 사는 놈한테 죽는다.",
-      "answer": "아저씨",
-      "aliases": ["The Man from Nowhere", "Man from Nowhere"],
-      "year": 2010,
-      "genre": "액션·스릴러",
-      "sourceNote": "영화 〈아저씨〉(2010)",
+      "line": "드루와, 드루와.",
+      "answer": "신세계",
+      "aliases": ["New World"],
+      "year": 2013,
+      "genre": "느와르·범죄",
+      "sourceNote": "영화 〈신세계〉(2013)",
       "needsReview": true
     },
     {
@@ -173,6 +173,72 @@
       "year": 2012,
       "genre": "범죄·드라마",
       "sourceNote": "영화 〈범죄와의 전쟁: 나쁜놈들 전성시대〉(2012)",
+      "needsReview": true
+    },
+    {
+      "id": "mq-peppermint-candy",
+      "medium": "movie",
+      "line": "나 다시 돌아갈래!",
+      "answer": "박하사탕",
+      "aliases": ["Peppermint Candy"],
+      "year": 1999,
+      "genre": "드라마",
+      "sourceNote": "영화 〈박하사탕〉(1999)",
+      "needsReview": true
+    },
+    {
+      "id": "mq-marathon",
+      "medium": "movie",
+      "line": "초원이 다리는 백만 불짜리 다리.",
+      "answer": "말아톤",
+      "aliases": ["Marathon"],
+      "year": 2005,
+      "genre": "휴먼 드라마",
+      "sourceNote": "영화 〈말아톤〉(2005)",
+      "needsReview": true
+    },
+    {
+      "id": "mq-sunflower",
+      "medium": "movie",
+      "line": "꼭 그렇게 다 가져가야만 속이 후련했냐!",
+      "answer": "해바라기",
+      "aliases": ["Sunflower"],
+      "year": 2006,
+      "genre": "액션·드라마",
+      "sourceNote": "영화 〈해바라기〉(2006)",
+      "needsReview": true
+    },
+    {
+      "id": "mq-one-fine-spring-day",
+      "medium": "movie",
+      "line": "라면 먹을래요?",
+      "answer": "봄날은 간다",
+      "aliases": ["One Fine Spring Day"],
+      "year": 2001,
+      "genre": "멜로·드라마",
+      "sourceNote": "영화 〈봄날은 간다〉(2001)",
+      "needsReview": true
+    },
+    {
+      "id": "mq-the-attorney",
+      "medium": "movie",
+      "line": "국가란 국민입니다!",
+      "answer": "변호인",
+      "aliases": ["The Attorney"],
+      "year": 2013,
+      "genre": "법정·드라마",
+      "sourceNote": "영화 〈변호인〉(2013)",
+      "needsReview": true
+    },
+    {
+      "id": "mq-inside-men",
+      "medium": "movie",
+      "line": "모히또 가서 몰디브나 한잔 할라니까.",
+      "answer": "내부자들",
+      "aliases": ["Inside Men", "The Inside Men"],
+      "year": 2015,
+      "genre": "범죄·드라마",
+      "sourceNote": "영화 〈내부자들〉(2015)",
       "needsReview": true
     }
   ]

@@ -12,7 +12,10 @@
     "lint": "eslint .",
     "test": "vitest run",
     "test:watch": "vitest",
-    "e2e:screens": "node scripts/e2e-screenshots.mjs"
+    "e2e:screens": "node scripts/e2e-screenshots.mjs",
+    "daily:generate": "node scripts/daily-song-image/generate.mjs",
+    "daily:pick": "node scripts/daily-song-image/pick.mjs",
+    "daily:publish": "node scripts/daily-song-image/publish.mjs"
   },
   "dependencies": {
     "@fontsource/black-han-sans": "^5.2.5",

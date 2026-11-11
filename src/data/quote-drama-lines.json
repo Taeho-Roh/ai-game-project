@@ -2,7 +2,7 @@
   "id": "drama-lines",
   "gameType": "quote_tts",
   "title": "드라마 명대사",
-  "description": "본방 사수하던 그 장면! 1995년부터 2022년까지 드라마 15편.",
+  "description": "본방 사수하던 그 장면! 1995년부터 2022년까지 드라마 16편.",
   "createdAt": "2026-11-11",
   "editorRank": 2,
   "tags": ["드라마", "명대사"],
@@ -20,15 +20,15 @@
       "needsReview": true
     },
     {
-      "id": "dq-autumn-in-my-heart",
+      "id": "dq-trap-of-youth",
       "medium": "drama",
-      "line": "얼마면 돼? 얼마면 되겠냐?",
-      "answer": "가을동화",
-      "aliases": ["Autumn in My Heart", "Autumn Fairy Tale"],
-      "year": 2000,
-      "genre": "멜로",
-      "channel": "KBS2",
-      "sourceNote": "KBS2 드라마 〈가을동화〉(2000)",
+      "line": "당신, 부셔버릴 거야.",
+      "answer": "청춘의 덫",
+      "aliases": ["Trap of Youth", "The Snare of Youth"],
+      "year": 1999,
+      "genre": "복수 멜로",
+      "channel": "SBS",
+      "sourceNote": "SBS 드라마 〈청춘의 덫〉(1999)",
       "needsReview": true
     },
     {
@@ -58,7 +58,7 @@
     {
       "id": "dq-dae-jang-geum",
       "medium": "drama",
-      "line": "홍시 맛이 나서 홍시라 생각한 것이온데.",
+      "line": "홍시 맛이 나서 홍시라 생각하였사온데.",
       "answer": "대장금",
       "aliases": ["Dae Jang Geum", "Jewel in the Palace"],
       "year": 2003,
@@ -94,7 +94,7 @@
     {
       "id": "dq-heirs",
       "medium": "drama",
-      "line": "나 너 좋아하냐?",
+      "line": "너 나 좋아하냐?",
       "answer": "상속자들",
       "officialTitle": "왕관을 쓰려는 자, 그 무게를 견뎌라 – 상속자들",
       "aliases": ["The Heirs", "Heirs"],
@@ -105,15 +105,15 @@
       "needsReview": true
     },
     {
-      "id": "dq-my-love-from-the-star",
+      "id": "dq-misaeng",
       "medium": "drama",
-      "line": "눈 오는 날엔 치킨에 맥주인데.",
-      "answer": "별에서 온 그대",
-      "aliases": ["별그대", "My Love from the Star", "You Who Came from the Stars"],
-      "year": 2013,
-      "genre": "판타지·로맨스",
-      "channel": "SBS",
-      "sourceNote": "SBS 드라마 〈별에서 온 그대〉(2013)",
+      "line": "회사가 전쟁터라고? 밖은 지옥이다.",
+      "answer": "미생",
+      "aliases": ["Misaeng", "Incomplete Life"],
+      "year": 2014,
+      "genre": "직장·휴먼 드라마",
+      "channel": "tvN",
+      "sourceNote": "tvN 드라마 〈미생〉(2014)",
       "needsReview": true
     },
     {
@@ -168,7 +168,7 @@
     {
       "id": "dq-squid-game",
       "medium": "drama",
-      "line": "우린 깐부잖아.",
+      "line": "깐부끼리는 네 거 내 거가 없는 거야.",
       "answer": "오징어 게임",
       "aliases": ["Squid Game"],
       "year": 2021,
@@ -187,6 +187,18 @@
       "genre": "복수극·스릴러",
       "channel": "넷플릭스",
       "sourceNote": "넷플릭스 시리즈 〈더 글로리〉(2022)",
+      "needsReview": true
+    },
+    {
+      "id": "dq-my-liberation-notes",
+      "medium": "drama",
+      "line": "나를 추앙해요.",
+      "answer": "나의 해방일지",
+      "aliases": ["My Liberation Notes", "해방일지"],
+      "year": 2022,
+      "genre": "휴먼·멜로",
+      "channel": "JTBC",
+      "sourceNote": "JTBC 드라마 〈나의 해방일지〉(2022)",
       "needsReview": true
     }
   ]

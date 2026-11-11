@@ -44,11 +44,20 @@ describe("모든 퀴즈 묶음", () => {
 describe("명대사 묶음 (quote_tts)", () => {
   const quotePacks = PACKS.filter((p): p is Extract<QuizPack, { gameType: "quote_tts" }> => p.gameType === "quote_tts");
 
-  it("영화·드라마 두 묶음, 각 15문제 안팎", () => {
+  it("영화·드라마 두 묶음, 각 12~25문제", () => {
     expect(quotePacks.map((p) => p.id).sort()).toEqual(["drama-lines", "movie-lines"]);
     for (const p of quotePacks) {
       expect(p.questions.length).toBeGreaterThanOrEqual(12);
-      expect(p.questions.length).toBeLessThanOrEqual(20);
+      expect(p.questions.length).toBeLessThanOrEqual(25);
+    }
+  });
+
+  it("대사는 60자 이하이고 정답 제목을 담지 않아요", () => {
+    for (const p of quotePacks) {
+      for (const q of p.questions) {
+        expect([...q.line].length, q.id).toBeLessThanOrEqual(60);
+        expect(q.line.replace(/\s/g, "").includes(q.answer.replace(/\s/g, "")), q.id).toBe(false);
+      }
     }
   });
 

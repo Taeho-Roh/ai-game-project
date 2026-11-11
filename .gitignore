@@ -26,3 +26,6 @@ playwright-report/
 !.vscode/extensions.json
 .idea
 .DS_Store
+
+# 노래 그림 하루 한 장 — 만든 후보 그림(용량 큼, 사람이 고른 뒤 R2 로 올려요)
+scripts/daily-song-image/candidates/

@@ -15,7 +15,10 @@ function fromJson(raw: RawPack): QuizPack {
   throw new Error(`모르는 게임 종류: ${raw.gameType}`);
 }
 
-const RAW_PACKS: RawPack[] = [movieLines, dramaLines, songImageSample];
+// 하루 한 장 파이프라인(scripts/daily-song-image/publish.mjs)이 만드는 묶음 — 첫 그림이 올라간 뒤에만 파일이 생겨요.
+const dailyFiles = import.meta.glob<RawPack>("./song-image-daily.json", { eager: true, import: "default" });
+
+const RAW_PACKS: RawPack[] = [movieLines, dramaLines, songImageSample, ...Object.values(dailyFiles)];
 
 export const PACKS: QuizPack[] = RAW_PACKS.map(fromJson);
 
