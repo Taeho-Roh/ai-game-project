@@ -1,0 +1,179 @@
+{
+  "id": "movie-lines",
+  "gameType": "quote_tts",
+  "title": "한국 영화 명대사",
+  "description": "한 번쯤 따라 해 본 그 대사, 어느 영화였을까요? 2001~2019년 한국 영화 15편.",
+  "createdAt": "2026-11-11",
+  "editorRank": 1,
+  "tags": ["영화", "명대사"],
+  "questions": [
+    {
+      "id": "mq-tazza",
+      "medium": "movie",
+      "line": "묻고 더블로 가!",
+      "answer": "타짜",
+      "aliases": ["Tazza", "Tazza: The High Rollers", "The War of Flower"],
+      "year": 2006,
+      "genre": "범죄·드라마",
+      "sourceNote": "영화 〈타짜〉(2006)",
+      "needsReview": true
+    },
+    {
+      "id": "mq-friend",
+      "medium": "movie",
+      "line": "니가 가라, 하와이.",
+      "answer": "친구",
+      "aliases": ["Friend"],
+      "year": 2001,
+      "genre": "드라마·범죄",
+      "sourceNote": "영화 〈친구〉(2001)",
+      "needsReview": true
+    },
+    {
+      "id": "mq-oldboy",
+      "medium": "movie",
+      "line": "누구냐, 넌?",
+      "answer": "올드보이",
+      "aliases": ["Oldboy", "Old Boy"],
+      "year": 2003,
+      "genre": "스릴러·미스터리",
+      "sourceNote": "영화 〈올드보이〉(2003)",
+      "needsReview": true
+    },
+    {
+      "id": "mq-lady-vengeance",
+      "medium": "movie",
+      "line": "너나 잘하세요.",
+      "answer": "친절한 금자씨",
+      "aliases": ["금자씨", "Sympathy for Lady Vengeance", "Lady Vengeance"],
+      "year": 2005,
+      "genre": "스릴러·복수극",
+      "sourceNote": "영화 〈친절한 금자씨〉(2005)",
+      "needsReview": true
+    },
+    {
+      "id": "mq-wailing",
+      "medium": "movie",
+      "line": "뭣이 중헌디?",
+      "answer": "곡성",
+      "officialTitle": "곡성(哭聲)",
+      "aliases": ["哭聲", "The Wailing"],
+      "year": 2016,
+      "genre": "미스터리·스릴러",
+      "sourceNote": "영화 〈곡성(哭聲)〉(2016)",
+      "needsReview": true
+    },
+    {
+      "id": "mq-veteran",
+      "medium": "movie",
+      "line": "어이가 없네.",
+      "answer": "베테랑",
+      "aliases": ["Veteran"],
+      "year": 2015,
+      "genre": "액션·범죄",
+      "sourceNote": "영화 〈베테랑〉(2015)",
+      "needsReview": true
+    },
+    {
+      "id": "mq-parasite",
+      "medium": "movie",
+      "line": "아들아, 너는 계획이 다 있구나.",
+      "answer": "기생충",
+      "aliases": ["Parasite"],
+      "year": 2019,
+      "genre": "드라마·블랙코미디",
+      "sourceNote": "영화 〈기생충〉(2019)",
+      "needsReview": true
+    },
+    {
+      "id": "mq-extreme-job",
+      "medium": "movie",
+      "line": "지금까지 이런 맛은 없었다. 이것은 갈비인가, 통닭인가.",
+      "answer": "극한직업",
+      "aliases": ["Extreme Job"],
+      "year": 2019,
+      "genre": "코미디·액션",
+      "sourceNote": "영화 〈극한직업〉(2019)",
+      "needsReview": true
+    },
+    {
+      "id": "mq-memories-of-murder",
+      "medium": "movie",
+      "line": "밥은 먹고 다니냐?",
+      "answer": "살인의 추억",
+      "aliases": ["Memories of Murder"],
+      "year": 2003,
+      "genre": "범죄·스릴러",
+      "sourceNote": "영화 〈살인의 추억〉(2003)",
+      "needsReview": true
+    },
+    {
+      "id": "mq-chaser",
+      "medium": "movie",
+      "line": "4885, 너지?",
+      "speakText": "사팔팔오, 너지?",
+      "answer": "추격자",
+      "aliases": ["The Chaser", "Chaser"],
+      "year": 2008,
+      "genre": "스릴러·범죄",
+      "sourceNote": "영화 〈추격자〉(2008)",
+      "needsReview": true
+    },
+    {
+      "id": "mq-bittersweet-life",
+      "medium": "movie",
+      "line": "넌 나에게 모욕감을 줬어.",
+      "answer": "달콤한 인생",
+      "aliases": ["A Bittersweet Life", "Bittersweet Life"],
+      "year": 2005,
+      "genre": "느와르·액션",
+      "sourceNote": "영화 〈달콤한 인생〉(2005)",
+      "needsReview": true
+    },
+    {
+      "id": "mq-face-reader",
+      "medium": "movie",
+      "line": "내가 왕이 될 상인가?",
+      "answer": "관상",
+      "aliases": ["The Face Reader", "Face Reader"],
+      "year": 2013,
+      "genre": "사극·드라마",
+      "sourceNote": "영화 〈관상〉(2013)",
+      "needsReview": true
+    },
+    {
+      "id": "mq-unjust",
+      "medium": "movie",
+      "line": "호의가 계속되면, 그게 권리인 줄 알아요.",
+      "answer": "부당거래",
+      "aliases": ["The Unjust"],
+      "year": 2010,
+      "genre": "범죄·드라마",
+      "sourceNote": "영화 〈부당거래〉(2010)",
+      "needsReview": true
+    },
+    {
+      "id": "mq-man-from-nowhere",
+      "medium": "movie",
+      "line": "내일만 사는 놈은 오늘만 사는 놈한테 죽는다.",
+      "answer": "아저씨",
+      "aliases": ["The Man from Nowhere", "Man from Nowhere"],
+      "year": 2010,
+      "genre": "액션·스릴러",
+      "sourceNote": "영화 〈아저씨〉(2010)",
+      "needsReview": true
+    },
+    {
+      "id": "mq-nameless-gangster",
+      "medium": "movie",
+      "line": "느그 서장 남천동 살제?",
+      "answer": "범죄와의 전쟁",
+      "officialTitle": "범죄와의 전쟁: 나쁜놈들 전성시대",
+      "aliases": ["나쁜놈들 전성시대", "Nameless Gangster", "Nameless Gangster: Rules of the Time"],
+      "year": 2012,
+      "genre": "범죄·드라마",
+      "sourceNote": "영화 〈범죄와의 전쟁: 나쁜놈들 전성시대〉(2012)",
+      "needsReview": true
+    }
+  ]
+}

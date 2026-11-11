@@ -1,0 +1,28 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# 로컬 시크릿 — 절대 커밋 금지 (지금은 API 키가 필요 없지만, 나중에 TTS·그림 API 키가 생기면 여기에)
+.env
+.env.*
+.dev.vars
+!.env.example
+
+# wrangler 로컬 캐시
+.wrangler/
+
+# Playwright 임시 산출물
+test-results/
+playwright-report/
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store

@@ -1,0 +1,112 @@
+{
+  "id": "song-image-sample",
+  "gameType": "song_image",
+  "title": "그림 보고 노래 맞히기",
+  "description": "노래 분위기를 그린 그림을 보고 제목을 맞혀요. 지금은 흐름 확인용 샘플 그림 5장이에요.",
+  "createdAt": "2026-11-10",
+  "editorRank": 3,
+  "sample": true,
+  "tags": ["노래", "그림", "샘플"],
+  "questions": [
+    {
+      "id": "sq-cherry-blossom-ending",
+      "answer": "벚꽃 엔딩",
+      "aliases": ["Cherry Blossom Ending"],
+      "artist": "버스커 버스커",
+      "year": 2012,
+      "genre": "포크·인디",
+      "sourceNote": "버스커 버스커 〈벚꽃 엔딩〉(2012)",
+      "sceneDescription": "봄밤, 가로등이 켜진 길 위로 분홍 꽃잎이 흩날려요.",
+      "image": {
+        "kind": "placeholder",
+        "scene": {
+          "sky": ["#2B2155", "#F49AC1"],
+          "objects": ["road", "lamps"],
+          "particles": { "kind": "petal", "color": "#FFC4DD", "count": 46 },
+          "seed": 11
+        }
+      },
+      "needsReview": true
+    },
+    {
+      "id": "sq-snow-flower",
+      "answer": "눈의 꽃",
+      "aliases": ["Snow Flower"],
+      "artist": "박효신",
+      "year": 2004,
+      "genre": "발라드",
+      "sourceNote": "박효신 〈눈의 꽃〉(2004)",
+      "sceneDescription": "하얀 눈송이가 꽃처럼 피어나는 조용한 겨울밤이에요.",
+      "image": {
+        "kind": "placeholder",
+        "scene": {
+          "sky": ["#0E1A3A", "#3B5B9A"],
+          "objects": ["moon", "hills"],
+          "particles": { "kind": "snow", "color": "#FFFFFF", "count": 60 },
+          "seed": 23
+        }
+      },
+      "needsReview": true
+    },
+    {
+      "id": "sq-bam-yang-gang",
+      "answer": "밤양갱",
+      "aliases": ["Bam Yang Gang"],
+      "artist": "비비(BIBI)",
+      "year": 2024,
+      "genre": "팝·발라드",
+      "sourceNote": "비비(BIBI) 〈밤양갱〉(2024)",
+      "sceneDescription": "달 뜬 밤, 접시 위에 네모난 달콤한 간식 하나가 놓여 있어요.",
+      "image": {
+        "kind": "placeholder",
+        "scene": {
+          "sky": ["#1A1033", "#4A2C5E"],
+          "objects": ["moon", "plate"],
+          "particles": { "kind": "star", "color": "#FFE7A0", "count": 28 },
+          "seed": 37
+        }
+      },
+      "needsReview": true
+    },
+    {
+      "id": "sq-gangnam-style",
+      "answer": "강남스타일",
+      "aliases": ["Gangnam Style"],
+      "artist": "싸이(PSY)",
+      "year": 2012,
+      "genre": "댄스",
+      "sourceNote": "싸이(PSY) 〈강남스타일〉(2012)",
+      "sceneDescription": "반짝이는 도시의 밤, 모두가 들썩이는 파티가 벌어져요.",
+      "image": {
+        "kind": "placeholder",
+        "scene": {
+          "sky": ["#120B2E", "#5B2A86"],
+          "objects": ["city"],
+          "particles": { "kind": "confetti", "color": "#FFD83D", "count": 40 },
+          "seed": 41
+        }
+      },
+      "needsReview": true
+    },
+    {
+      "id": "sq-red-flavor",
+      "answer": "빨간 맛",
+      "officialTitle": "빨간 맛 (Red Flavor)",
+      "aliases": ["Red Flavor"],
+      "artist": "레드벨벳(Red Velvet)",
+      "year": 2017,
+      "genre": "댄스·팝",
+      "sourceNote": "레드벨벳(Red Velvet) 〈빨간 맛 (Red Flavor)〉(2017)",
+      "sceneDescription": "한여름 햇살 아래 바닷가, 빨간 과일이 한가득 쌓여 있어요.",
+      "image": {
+        "kind": "placeholder",
+        "scene": {
+          "sky": ["#FF9F68", "#FFE9A8"],
+          "objects": ["sun", "sea", "fruits"],
+          "seed": 53
+        }
+      },
+      "needsReview": true
+    }
+  ]
+}
