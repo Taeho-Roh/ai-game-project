@@ -107,6 +107,13 @@ export default function HomePage() {
             : "새로 올라온 묶음부터 보여 드려요."}
         </p>
       </section>
+      <section className="mt-8 rounded-2xl border-2 border-ink bg-white p-4" aria-label="나의PD">
+        <h2 className="text-lg font-extrabold">모임 진행이 막막하다면? 나의PD</h2>
+        <p className="mt-1 text-[14px] text-ink/70">인원·시간·분위기만 고르면 분 단위 큐시트와 진행 멘트를 만들어 드려요.</p>
+        <Link to="/pd" className={cn(buttonVariants({ variant: "dark", size: "sm" }), "mt-3")}>
+          큐시트 만들기
+        </Link>
+      </section>
     </AppShell>
   );
 }

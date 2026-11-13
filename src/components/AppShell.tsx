@@ -15,13 +15,22 @@ export function Logo({ className }: { className?: string }) {
 }
 
 /** 바닥 안내 — 어떤 게임을 보고 있는지에 따라 필요한 표시만 */
-export type FooterKind = "home" | GameTypeId;
+export type FooterKind = "home" | "pd" | GameTypeId;
 
 function FooterLabel({ children }: { children: ReactNode }) {
   return <span className="rounded-full bg-ink px-2 py-0.5 text-[11px] font-bold text-paper">{children}</span>;
 }
 
 export function SiteFooter({ kind = "home", sample }: { kind?: FooterKind; sample?: boolean }) {
+  if (kind === "pd") {
+    return (
+      <footer className="mt-10 border-t border-ink/10 pb-10 pt-5 text-[13px] leading-relaxed text-ink/60 print:hidden">
+        <p className="mb-1">큐시트는 정해진 템플릿으로 만들어요. 진행 멘트는 예시이니 상황에 맞게 고쳐 쓰세요.</p>
+        <p className="mb-1">음주를 강요하는 게임은 넣지 않아요. 참가자 실명·연락처 같은 개인정보는 적지 마세요.</p>
+        <p>큐시트는 이 기기에만 저장돼요.</p>
+      </footer>
+    );
+  }
   const quote = kind === "home" || kind === "quote_tts";
   const song = kind === "home" || kind === "song_image";
   return (
