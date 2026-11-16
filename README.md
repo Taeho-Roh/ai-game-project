@@ -4,7 +4,7 @@
 **공통 퀴즈 뼈대를 먼저 만들고, 그 위에 1순위 게임 "명대사 듣고 작품 맞히기"를 올렸어요.**
 2순위 "노래 → AI 그림 → 제목 맞히기"는 화면과 데이터 구조만 만들고 샘플 그림으로 흐름을 확인했어요.
 
-- **아직 배포하지 않았어요.** 인터넷 주소도 없어요. 이 컴퓨터에서만 열려요.
+- **점검용 주소로 배포했어요 (2026-11-17):** https://aigame-project.taehomedian.workers.dev — 정식 이름·도메인은 아직이에요(5장 1번).
 - **DB 를 쓰지 않아요.** 문제는 저장소 안의 JSON 파일, 점수 기록은 각자 기기(localStorage)에만 남아요.
 - **돈 드는 API 를 부르지 않아요.** 음성은 휴대폰·PC 에 원래 들어 있는 음성 읽기 기능(무료)을 써요. API 키도 필요 없어요.
 
@@ -68,6 +68,7 @@ npm run dev        # → http://localhost:9008 을 브라우저로 열기
 | `npm run preview` | 배포용 파일로 띄워 보기 → http://localhost:9018 |
 | `npm run e2e:screens` | 휴대폰 화면 크기로 한 판을 끝까지 자동 진행하고 화면 사진 저장 (`build` 먼저) |
 | `npm run lint` | 코드 규칙 검사 |
+| `npm run deploy` | 빌드 후 Cloudflare 에 배포 → https://aigame-project.taehomedian.workers.dev (Cloudflare 로그인 필요: `npx wrangler login`) |
 | `npm run daily:generate -- --dry-run` | 오늘의 노래 그림 프롬프트 미리보기 (돈 안 듦) — 8장 참고 |
 
 포트는 다른 프로젝트와 겹치지 않게 9008(개발)·9018(미리보기)을 써요.
@@ -97,7 +98,7 @@ src/
 docs/content-review.md   문제 검수표 (출시 전 사람이 확인)
 scripts/e2e-screenshots.mjs  자동 한 판 + 화면 사진
 scripts/daily-song-image/    노래 그림 하루 한 장 만들기 도구 (8장)
-wrangler.jsonc   배포 설정 "준비만" (PPOP 과 같은 Cloudflare Workers 정적 파일 방식) — 배포하지 않았어요
+wrangler.jsonc   배포 설정 (PPOP 과 같은 Cloudflare Workers 정적 파일 방식) — `npm run deploy`
 ```
 
 **문제 추가하기**: `src/data/` 의 JSON 에 항목을 추가 → `npm test`. 형식이 틀리면(연도 빠짐, 대사 두 줄, 정답 겹침, 대사에 제목이 들어감 등) 어디가 틀렸는지 알려 줘요.
@@ -119,7 +120,7 @@ wrangler.jsonc   배포 설정 "준비만" (PPOP 과 같은 Cloudflare Workers �
 | # | 정할 것 | 지금 상태 / 선택지 |
 |---|---|---|
 | 1 | **이름·도메인** | "맞혀볼래?"는 가칭. 기존 미니게임 사이트에 한 칸으로 넣을지, 별도 앱(새 도메인)으로 갈지 (보고서 결정사항 1번) |
-| 2 | **배포 승인** | `wrangler.jsonc` 준비만 해 두었어요. 승인 주시면 `npm run build` → `npx wrangler deploy` |
+| 2 | **배포 승인** | ✅ 2026-11-17 대표님 요청으로 점검용 주소에 배포 완료 — https://aigame-project.taehomedian.workers.dev (다시 배포: `npm run deploy`) |
 | 3 | **유료 TTS 쓸지** | 지금: 기기 내장 음성(무료). 단점은 기기마다 목소리가 다르고, 일부 기기·앱 안 브라우저는 한국어 음성이 없을 수 있어요. 유료(Google Cloud TTS 등)는 문제당 1원 미만, 모두에게 같은 목소리, 서버에서 한 번 만들어 R2 저장. 쓸 경우 TTS 약관의 **상업적 이용 허용** 확인 필요 |
 | 4 | **그림 API** | 위 4번 참고. 노래 그림 게임 착수 시점과 함께 결정 |
 | 5 | **변호사 확인** | ① 게임에서 영화·드라마 대사 한 줄 인용(저작권법 제28조·제35조의5) ② "AI·TTS 음성"/"AI 생성" 표시가 AI 기본법 기준에 충분한지 ③ 노래 제목을 정답으로 쓰는 것, 가사 힌트 금지 유지 ④ (2단계) 사용자 투고 신고·삭제 절차와 약관. 보고서 말대로 한 번 상담에 묶어서 |

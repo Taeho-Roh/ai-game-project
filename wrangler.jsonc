@@ -1,11 +1,12 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  // ⚠️ 아직 배포하지 않습니다. 도메인·배포는 대표 승인 후에만 (README "출시 전에 정할 것" 참고).
+  // 2026-11-17 대표 요청으로 점검용 주소에 배포: https://aigame-project.taehomedian.workers.dev
+  // 정식 도메인은 아직 미정 (README "출시 전에 정할 것" 1번).
   // PPOP-project 와 같은 방식: Cloudflare Workers "정적 파일(assets)" 배포 — 코드 없이 dist 만 올립니다.
-  // 승인 후 순서: npm run build → npx wrangler deploy (wrangler 는 그때 설치)
+  // 다시 배포: npm run deploy (= npm run build → wrangler deploy)
   "name": "aigame-project",
   "compatibility_date": "2026-11-01",
-  // 운영 도메인을 붙이기 전 점검용 *.workers.dev 주소 (배포 승인 후에만 생김)
+  // 운영 도메인을 붙이기 전 점검용 *.workers.dev 주소
   "workers_dev": true,
   "assets": {
     "directory": "./dist",
